@@ -2,13 +2,14 @@
 
 int main(){
 
-    int a, b, c, result
+    int a = 2;
+    int b = 4;
+    int c =6;
+    int result;
 
-    printf("enter 3 integers");
-    scanf("%d %d %d", &a, &b, &c);
+    result = a + b - c;
 
-    result = a - b - c
+  printf("Result: %d\n", result);
 
-    printf("%d - %d - %d\n", a, b, c, result);
-    return 0;
+  return 0;
 }
